@@ -4,10 +4,17 @@ body
     background-image: url(image/imagefond.jpg)
 }
 
+#bloc_page
+
+{
+    width: 900px;
+    margin:auto;
+}
+
 header
 {
     
-    background: url('image/separ.png') repeat-x bottom;
+   
     display: flex;
     justify-content: space-between;
     align-items: flex-end
@@ -32,7 +39,7 @@ header h1
     
     font-size: 4.5em;
     font-weight: normal;
-    margin-top: 1px;
+    margin-top: 1%;
 }
 
 header h2 
@@ -49,7 +56,9 @@ nav ul
 
 nav li
 {
+    
     margin-right: 15px;
+    margin-top: 0%;
 }
 
 nav a
@@ -60,12 +69,64 @@ nav a
     text-decoration: none;
     top:1%;
     display: flex;
-    top: 1%;
+    
 
 }
 nav a:hover
 {
     color: #760001;
     border-bottom: 3px solid #760001;
+}
+
+#image_banniere
+
+{
+  margin-top: 15px;
+  height: 200px;
+  border-radius: 5px;
+  background:url() no-repeat ;
+  box-shadow: 0px 4px 4px #1c1a19;
+  margin-bottom: 25px;
+  background-color: rgb(51, 51, 202);
+  opacity: 0.3  ;
+
+}
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+article,aside
+{
+    text-align: justify
+}
+
+article
+{
+    margin-right: 20px; 
+    margin-left: 20px;
+    flex: 3;
+}
+
+aside
+{
+    flex: 0.5;
+    
+    background-color:rgb(88, 88, 88);
+    opacity: 0.9;
+    box-shadow: 0px 1px 1px #424140;
+    border-radius: 5px;
+    padding: 5px;
+    
+    font-size: 0.9;
+}
+
+footer
+{
+    
+
 }
 
